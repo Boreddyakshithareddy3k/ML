@@ -1,20 +1,15 @@
 # Predicting Stock Price Direction using Support Vector Machines
 
 ## Overview
+This project aims to predict the direction of stock price movements for Reliance Industries Limited (or your chosen stock) using Support Vector Machines (SVM) as the predictive model. SVM is chosen for its ability to handle complex decision boundaries in classification tasks.
 
-This project aims to predict the direction of stock price movements using Support Vector Machines (SVM). The goal is to develop a model that can accurately predict whether the price of a stock will go up or down based on historical data. The project involves data collection, preprocessing, feature selection, model training, and evaluation.
+## Dataset
+The dataset used in this project is sourced from [/kaggle/input/reliance-data/Reliance.csv], containing historical daily stock data for Reliance Industries Limited. The dataset includes features such as closing prices, moving averages, and lagged values, which are used for feature engineering and model training.
 
 ## Dependencies
-
-To run this project, you need the following libraries and tools installed:
-
-- Python 3.x
+Ensure you have Python 3.x installed along with the following libraries:
 - pandas
 - numpy
 - scikit-learn
 - matplotlib
 
-You can install the required libraries using the following command:
-
-```bash
-pip install pandas numpy scikit-learn matplotlib
